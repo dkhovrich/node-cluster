@@ -1,0 +1,30 @@
+{
+  "name": "node-cluster",
+  "version": "1.0.0",
+  "description": "Пишем простой сервер с кластеризацией на Node.js https://youtu.be/YHPWG23cS4c",
+  "main": "index.js",
+  "scripts": {
+    "test": "autocannon -c 200 -d 10 http://localhost:8800"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkhovrich/node-cluster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkhovrich/node-cluster/issues"
+  },
+  "homepage": "https://github.com/dkhovrich/node-cluster#readme",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false
+  },
+  "devDependencies": {
+    "autocannon": "^7.0.3",
+    "prettier": "^2.2.1"
+  }
+}
