@@ -1,4 +1,4 @@
-const cluster = require("src/cluster");
+const cluster = require("cluster");
 const os = require("os");
 const pid = process.pid;
 
